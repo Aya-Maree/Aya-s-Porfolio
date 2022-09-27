@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang = "en">
+ <head>
+    <!-- meta is besically information about other data, it is usually used in the <head> to specify 
+    character set, page discription, keywords and viewport settings-->
+    <meta charset = "UTF-8"> 
+    <meta name = "viewport content = width= device-width, initial-scale=1.0">
+    <!--rel specifies the relationship between he current document and the linked document, href is used to create a link to
+    another page-->
+    <link rel ="stylesheet" href="./style.css">
+    <title> About me Page</title>
+</head>
+<body>
+    <div class="topnav">
+        <!--creating a navigation bar-->
+        <a class="active" href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="contact.html">Contact</a>
+        <a href="aboutme.html">About</a>
+    </div>
+    <!--div basically defines a divisionor section in an html document, it can be styled by css or manipulated with javasctipt-->
+    <div class="container">
+        <h1>Aya Maree</h1>
+        <h2>Software Engineering Student at UWO</h2>
+        <div class = "image">
+            <!--img src is used to embbed an image in an HTML page, the alt attribute contains alternative info if the user can't view
+            an image (because of slow connection or any errors)-->
+            <img src = "./Images/Me.png" alt = "Photograph Of Me">
+        </div>
+    </div>
+</body>
+<style>
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: rgb(122, 168, 219);
+      color: white;
+      text-align: center;
+    }
+    </style>
+    
+    <div class="footer">
+      <p1>I really enjoy coding and hope to enhance my skills using javasctipt and html to become an expert 
+        programmer. Wishing for a good semester taking SE 2202!</1p>
+    </div>
+
+</html>
